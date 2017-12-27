@@ -1,0 +1,15 @@
+server {
+    listen 80;
+    listen [::]:80;
+    listen 443 ssl;
+    listen [::]:443 ssl;
+
+    server_name wedding.eardley.xyz;
+
+    root /var/www/eardley.xyz;
+    index uc.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
