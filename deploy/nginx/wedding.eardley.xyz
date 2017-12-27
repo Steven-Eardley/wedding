@@ -6,7 +6,7 @@ server {
 
     server_name wedding.eardley.xyz;
 
-    root /var/www/eardley.xyz;
+    root /var/www/wedding;
     index uc.html;
 
     location / {
