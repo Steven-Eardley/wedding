@@ -6,8 +6,8 @@ server {
 
     server_name wedding.eardley.xyz;
 
-    root /var/www/wedding/src/;
-    index index.html;
+    root /var/www/wedding/;
+    index src/index.html;
 
     location / {
         try_files $uri $uri/ =404;
