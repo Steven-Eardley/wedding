@@ -1,0 +1,30 @@
+/* Under Construction layout*/
+#uc-image {
+    border-bottom: .05rem solid #e5e5e5;
+    background-image: url(../img/1997-7059_HOR_F_25.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem 1rem white inset;
+    margin-bottom: 0;
+    position: relative;
+}
+
+/* Hide the image to provide div size */
+#uc-image > img {
+    vertical-align: top;
+    width: 100%;
+    opacity: 0;
+}
+
+.inner {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+/* image caption right aligned */
+.img-caption {
+    text-align: right;
+    padding-bottom: 3rem;
+}
