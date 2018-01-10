@@ -15,4 +15,11 @@ server {
 
     access_log /var/log/nginx/wedding.access.log;
     error_log /var/log/nginx/wedding.error.log;
+
+    ssl_certificate /etc/letsencrypt/live/wedding.eardley.xyz/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/wedding.eardley.xyz/privkey.pem;
+
+    if ($scheme != "https") {
+        return 301 https://$host$request_uri;
+    }
 }
