@@ -5,6 +5,10 @@ body {
     display: block;
 }
 
+h1 {
+    padding-bottom: 1rem;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .footer {
     padding-right: 1rem;
