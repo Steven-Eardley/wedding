@@ -28,3 +28,14 @@
     text-align: right;
     padding-bottom: 3rem;
 }
+
+/* Responsive: scale down UC and caption text on mobiles */
+@media screen and (max-width: 20rem) {
+    .inner > h2 {
+        font-size: 70%
+    }
+
+    .img-caption {
+        font-size: 70%;
+    }
+}
