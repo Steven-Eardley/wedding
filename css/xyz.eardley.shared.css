@@ -1,0 +1,11 @@
+/* Let's make links grey */
+a {
+    color: grey;
+}
+a:visited {
+    color:darkgray;
+}
+
+h1 {
+    text-align: center;
+}

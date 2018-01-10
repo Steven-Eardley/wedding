@@ -2,22 +2,7 @@
 body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-}
-
-/* Let's make links grey */
-a {
-    color: grey;
-}
-a:visited {
-    color:darkgray;
-}
-
-h1 {
-    text-align: center;
-}
-
-.fancy {
-    font-family: 'Pinyon Script', cursive;
+    display: block;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -31,34 +16,25 @@ h1 {
     padding-top: 1.5rem;
     color: #777;
     border-top: .05rem solid #e5e5e5;
-    position: absolute;
-    bottom: 0;
+}
+
+/* Stick bullets to text */
+ul {
+    list-style-position: inside;
 }
 
 /* Customize container */
+.container {
+    text-align: center;
+}
+
 @media (min-width: 48em) {
     .container {
-        max-width: 46rem;
+        max-width: 60rem;
     }
 }
 .container-narrow > hr {
     margin: 2rem 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-    border-bottom: .05rem solid #e5e5e5;
-    background-image: url(../img/1997-7059_HOR_F_25.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1rem 1rem white inset;
-    margin-bottom: 0;
-}
-
-/* image caption right aligned */
-.img-caption {
-    text-align: right;
-    padding-bottom: 3rem;
 }
 
 /* Responsive: Portrait tablets and up */
