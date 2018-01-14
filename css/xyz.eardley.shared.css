@@ -13,3 +13,12 @@ h1 {
 li {
     margin: 1rem;
 }
+
+.map_container {
+    text-align: center;
+}
+
+.google_map {
+    width: 70%;
+    height: 25rem;
+}
