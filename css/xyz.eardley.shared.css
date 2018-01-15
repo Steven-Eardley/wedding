@@ -14,8 +14,9 @@ li {
     margin: 1rem;
 }
 
-.map_container {
+.center-container {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .google_map {
