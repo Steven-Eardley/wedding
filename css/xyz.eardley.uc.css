@@ -23,12 +23,6 @@
     width: 100%;
 }
 
-/* image caption right aligned */
-.img-caption {
-    text-align: right;
-    padding-bottom: 3rem;
-}
-
 /* Responsive: scale down UC and caption text on mobiles */
 @media screen and (max-width: 20rem) {
     .inner > h2 {
