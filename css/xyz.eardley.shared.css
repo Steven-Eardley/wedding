@@ -3,7 +3,7 @@ a {
     color: grey;
 }
 a:visited {
-    color:darkgray;
+    color:dimgrey;
 }
 
 h1 {
@@ -16,10 +16,18 @@ li {
 
 .center-container {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .google_map {
-    width: 70%;
-    height: 25rem;
+    margin-top: 1rem;
+    width: 80%;
+    height: 30rem;
+}
+
+/* image caption right aligned */
+.img-caption {
+    color: grey;
+    text-align: right;
+    padding-bottom: 1rem;
 }
