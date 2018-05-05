@@ -1,131 +1,30 @@
 <!DOCTYPE html>
-<!--
-        ____    __    ____  _______  __        ______   ______   .___  ___.  _______
-    \   \  /  \  /   / |   ____||  |      /      | /  __  \  |   \/   | |   ____|
-     \   \/    \/   /  |  |__   |  |     |  ,----'|  |  |  | |  \  /  | |  |__
-      \            /   |   __|  |  |     |  |     |  |  |  | |  |\/|  | |   __|
-       \    /\    /    |  |____ |  `----.|  `----.|  `--'  | |  |  |  | |  |____ __
-        \__/  \__/     |_______||_______| \______| \______/  |__|  |__| |_______(_ )
-                                                                                 |/
-         _______.  ______    __    __  .______        ______  _______      ______   ______    _______   _______
-        /       | /  __  \  |  |  |  | |   _  \      /      ||   ____|    /      | /  __  \  |       \ |   ____|
-       |   (----`|  |  |  | |  |  |  | |  |_)  |    |  ,----'|  |__      |  ,----'|  |  |  | |  .--.  ||  |__
-        \   \    |  |  |  | |  |  |  | |      /     |  |     |   __|     |  |     |  |  |  | |  |  |  ||   __|
-    .----)   |   |  `--'  | |  `--'  | |  |\  \----.|  `----.|  |____    |  `----.|  `--'  | |  '--'  ||  |____
-    |_______/     \______/   \______/  | _| `._____| \______||_______|    \______| \______/  |_______/ |_______|
-
-    .______       _______     ___       _______   _______ .______          _______. __
-    |   _  \     |   ____|   /   \     |       \ |   ____||   _  \        /       ||  |
-    |  |_)  |    |  |__     /  ^  \    |  .--.  ||  |__   |  |_)  |      |   (----`|  |
-    |      /     |   __|   /  /_\  \   |  |  |  ||   __|  |      /        \   \    |  |
-    |  |\  \----.|  |____ /  _____  \  |  '--'  ||  |____ |  |\  \----.----)   |   |__|
-    | _| `._____||_______/__/     \__\ |_______/ |_______|| _| `._____|_______/    (__)
-
--->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jennie & Steven's Wedding</title>
+    <title>Jennie & Steven's Wedding - All done!</title>
     <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="../css/xyz.eardley.shared.css" rel="stylesheet" type="text/css">
-    <link href="../css/xyz.eardley.wedding.css" rel="stylesheet" type="text/css">
+    <link href="../css/xyz.eardley.index.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
     <div class="container">
-        <h1 class="display-4">Jennie and Steven's Wedding</h1>
+        <h1 class="display-4">Jennie and Steven's Wedding - all done!</h1>
 
-        <p class="lead">Welcome! Here's some information about our wedding on 24th March 2018.</p>
-
-        <p>
-            We'll add details here as we can, please check back later if something's missing.
-            Send any messages or RSVPs via email to <a href="mailto:wedding@eardley.xyz?subject=RSVP response">wedding@eardley.xyz</a>.
-            We're looking forward to seeing you!
+        <p class="lead">
+            Our heartfelt thanks to everyone who joined us to make our celebration unforgettable.
         </p>
 
-        <div id="accordion" role="tablist">
-            <div class="card">
-                <div class="card-header" role="tab" id="headingZero">
-                    <h5 class="mb-0">
-                        <a data-toggle="collapse" href="#collapseZero" role="button" aria-expanded="false" aria-controls="collapseZero">
-                            Chronology
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseZero" class="collapse show" role="tabpanel" aria-labelledby="headingZero" data-parent="#accordion">
-                    <div class="card-body">
-                        <object type="text/html" data="timeline.html" width="100%" height="600px"></object>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" role="tab" id="headingOne">
-                    <h5 class="mb-0">
-                        <a class = collapsed data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
-                            Ceremony: Dalmeny Kirk
-                        </a>
-                    </h5>
-                </div>
+        <img class='photo img-fluid' src="../img/married.png">
 
-                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <object type="text/html" data="dalmeny.html" width="100%" height="500px"></object>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" role="tab" id="headingTwo">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
-                            Reception: Hilton Queensferry Crossing
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                        <object type="text/html" data="hotel.html" width="100%" height="500px"></object>
-                    </div>
-                </div>
-            </div>
-            <!--
-            <div class="card">
-                <div class="card-header" role="tab" id="headingThree">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
-                            Dinner Menu
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                        <object type="text/html" data="uc.html" width="60%" height="420px"></object>
-                    </div>
-                </div>
-            </div>
-            -->
-            <div class="card">
-                <div class="card-header" role="tab" id="headingFour">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
-                            Accommodation Nearby
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
-                    <div class="card-body">
-                        <object type="text/html" data="accommodation.html" width="100%" height="480px"></object>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>
+            If you're curious, you can still access the <a href="wedding.html">pre-wedding website</a>.
+        </p>
 
         <footer class="footer">
             <p>✰ 2018 by Steven Eardley. Please log bug reports and feature requests <a href="https://github.com/Steven-Eardley/wedding/issues" target="_blank">here</a>.</p>
         </footer>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-
 </body>
 </html>
