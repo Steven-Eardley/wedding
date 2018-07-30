@@ -2,7 +2,7 @@ server {
     listen 80;
     server_name localhost;
     location /nginx_status/ {
-        try_files $uri $uri/ /src/$uri /src/$uri/ =404;
+        stub_status;
     }
 }
 
